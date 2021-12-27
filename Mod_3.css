@@ -1,0 +1,20 @@
+body {background: navy;
+}
+
+/* HEADER */
+#header-nav {background: blue;
+             border: 0;
+             height: 75px;
+             text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+}
+
+a { color: navy}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+    color: gray;
+}
+
+#b1 {margin-top: 35px;
+     border: 2px solid white;
+}
