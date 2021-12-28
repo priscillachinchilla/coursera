@@ -19,5 +19,9 @@ a { color: navy}
      border: 2px solid white;
 }
 
-li {background: white;
+li {background: white
+}
+
+#nav-list li a:hover {color: navy;
+            background: gray;
 }
