@@ -1,0 +1,56 @@
+body {background: navy;
+}
+
+/* HEADER */
+#header-nav {background: blue;
+             border: 0;
+             height: 75px;
+             text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+             position: relative;
+             z-index: 9999;
+}
+
+a { color: navy}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+    color: gray;
+}
+
+#b1 {margin-top: 35px;
+     border: 2px solid white;
+}
+
+li {background: white
+}
+
+#nav-list li a:hover {color: navy;
+            background: gray;
+
+}
+
+#p1 {color: white;
+     font-size: 2em;
+
+}
+
+/*Main content*/
+#main-content {
+          background: white;
+          color: black;
+          text-align: justify;
+          width: 100%;
+          height: 1000px;
+          position: relative;
+          z-index:0;
+}
+
+h3 {text-align: center}
+
+@media (min-width: 768px) {
+  #nav-list {
+    display: none;
+}
+}    
+
+    
